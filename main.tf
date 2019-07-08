@@ -28,3 +28,15 @@ resource "google_compute_instance" "webserver" {
     }
   }
 }
+
+# Cria o Firewall para a VM
+resource "google_compute_firewall" "webfirewall" {
+  name        = "${var.nome_fw}"
+  network     = "default"
+
+  allow {
+    protocol  = "tcp"
+    ports     = "${var.portas}"
+  }
+}
+
