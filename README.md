@@ -7,9 +7,9 @@ A automação de init e destroy da infraestrutura foi automatizada via crontab n
 
 Para que a aplicação seja iniciada corretamente, deve-se corrigir o destinos das pastas, o projeto contém Load Balancer, Auto Scaling, VPC, EC2 e CloudWatch. Para que a aplicação funcione é necessário:
 
-#---> Instalar AWS CLI (https://docs.aws.amazon.com/pt_br/cli/latest/userguide/install-linux.html)
-#---> Instalar Terraform (https://learn.hashicorp.com/terraform/getting-started/install.html)
-#---> Configurar acesso de usuário AWS
+        ---> Instalar AWS CLI (https://docs.aws.amazon.com/pt_br/cli/latest/userguide/install-linux.html)
+        ---> Instalar Terraform (https://learn.hashicorp.com/terraform/getting-started/install.html)
+        ---> Configurar acesso de usuário AWS
 
 Para configuração de inicialização do projeto do terraform, é necessário:
 
